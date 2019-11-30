@@ -1,0 +1,11 @@
+kind: LocalConfig
+apiversion: odo.openshift.io/v1alpha1
+ComponentSettings:
+  Type: golang
+  SourceLocation: ./
+  SourceType: local
+  Ports:
+  - "8080"
+  Application: app
+  Project: rawdata
+  Name: vip-scanner
