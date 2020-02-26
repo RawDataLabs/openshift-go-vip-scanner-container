@@ -1,12 +1,11 @@
 package: github.com/rawc0der/VIP_Scanner
 import:
-- package: k8s.io/apimachinery
+- package: github.com/openshift/client-go
+  version: release-3.9
+- package: github.com/gomodule/redigo
+  version: ^2.0.0
   subpackages:
-  - pkg/apis/meta/v1
-- package: k8s.io/client-go
-  version: v12.0.0
-  subpackages:
-  - kubernetes
-  - tools/clientcmd
+  - redis
 - package: github.com/gorilla/mux
   version: v1.7.3
+
