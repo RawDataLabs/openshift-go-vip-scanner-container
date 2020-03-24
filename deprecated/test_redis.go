@@ -1,8 +1,8 @@
-package main
+package deprecated
 
 
 import (
-"fmt"
+	"fmt"
 "github.com/gomodule/redigo/redis"
 "log"
 )

@@ -8,4 +8,3 @@ import:
   - redis
 - package: github.com/gorilla/mux
   version: v1.7.3
-
